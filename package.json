@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-egg",
+  "version": "1.0.0",
+  "description": "Node Style Guide for Egg.",
+  "main": "index",
+  "devDependencies": {
+    "autod": "2",
+    "eslint": "1",
+    "mocha": "~2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egg-express/eslint-config-egg"
+  },
+  "homepage": "https://github.com/egg-express/eslint-config-egg",
+  "author": "popomore <sakura9515@gmail.com>",
+  "scripts": {
+    "lint": "eslint test index.js",
+    "test": "mocha",
+    "ci": "tnpm run lint && tnpm run test",
+    "autod": "autod -e test/fixtures -f ~ -w"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "files": [
+    ".eslintrc",
+    "index.js"
+  ]
+}

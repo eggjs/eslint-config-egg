@@ -184,7 +184,8 @@
     "valid-jsdoc": [2, {
       "prefer": {
         "returns": "return"
-      }
+      },
+      "requireReturn": false
     }],
     "valid-typeof": 0,
     "vars-on-top": 0,

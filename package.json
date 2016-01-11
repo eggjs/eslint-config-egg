@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-egg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node Style Guide for Egg.",
   "main": "index",
   "devDependencies": {

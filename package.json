@@ -5,7 +5,7 @@
   "main": "index",
   "devDependencies": {
     "autod": "2",
-    "eslint": "1",
+    "eslint": "2",
     "mocha": "~2.3.3"
   },
   "repository": {

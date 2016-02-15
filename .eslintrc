@@ -1,6 +1,8 @@
 {
-  "ecmaFeatures": {
-    "jsx": true
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
   "parser": "espree",
   "env": {

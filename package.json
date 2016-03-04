@@ -17,7 +17,7 @@
   "scripts": {
     "lint": "eslint test index.js",
     "test": "mocha",
-    "ci": "tnpm run lint && tnpm run test",
+    "ci": "npm run lint && npm run test",
     "autod": "autod -e test/fixtures -f ~ -w"
   },
   "engines": {

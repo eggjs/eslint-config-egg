@@ -1,4 +1,11 @@
 
+2.0.0 / 2016-03-04
+==================
+
+  * feat: enable ecmaVersion 6
+  * feat: remove consistent-return
+  * upgrade eslint to 2.0.0
+
 1.0.3 / 2016-01-11
 ==================
 

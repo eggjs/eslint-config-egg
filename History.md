@@ -1,4 +1,10 @@
 
+2.1.0 / 2016-03-11
+==================
+
+  * docs: update README.md
+  * deps: add peerDependencies
+
 2.0.0 / 2016-03-04
 ==================
 

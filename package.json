@@ -18,7 +18,7 @@
   "homepage": "https://github.com/egg-express/eslint-config-egg",
   "author": "popomore <sakura9515@gmail.com>",
   "scripts": {
-    "lint": "eslint test index.js",
+    "lint": "eslint test index.js legacy.js rules/*.js",
     "test": "mocha",
     "ci": "npm run lint && npm run test",
     "autod": "autod -e test/fixtures -f ~ -w"

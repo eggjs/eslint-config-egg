@@ -1,6 +1,16 @@
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
-
-module.exports = JSON.parse(fs.readFileSync(path.join(__dirname, '.eslintrc')));
+module.exports = {
+  parser: 'espree',
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'modules',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  'extends': [
+    './rules/es6',
+    './legacy',
+  ].map(require.resolve),
+};

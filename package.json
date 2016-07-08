@@ -1,12 +1,11 @@
 {
   "name": "eslint-config-egg",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Node Style Guide for Egg.",
   "main": "index",
   "devDependencies": {
-    "autod": "2",
     "eslint": "2",
-    "mocha": "~2.3.3"
+    "mocha": "2"
   },
   "peerDependencies": {
     "eslint": "2"
@@ -18,10 +17,9 @@
   "homepage": "https://github.com/egg-express/eslint-config-egg",
   "author": "popomore <sakura9515@gmail.com>",
   "scripts": {
-    "lint": "eslint test index.js legacy.js rules/*.js",
+    "lint": "eslint test rules *.js",
     "test": "mocha",
-    "ci": "npm run lint && npm run test",
-    "autod": "autod -e test/fixtures -f ~ -w"
+    "ci": "npm run lint && npm run test"
   },
   "engines": {
     "node": ">= 4.0.0"

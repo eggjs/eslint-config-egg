@@ -1,4 +1,9 @@
 
+3.0.0 / 2016-07-08
+==================
+
+  * refactor: refactor all rules based on eslint-config-airbnb and old ones, and classify them by category. (#11)
+
 2.1.0 / 2016-03-11
 ==================
 

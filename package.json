@@ -26,6 +26,7 @@
   },
   "files": [
     ".eslintrc",
-    "index.js"
+    "index.js",
+    "rules"
   ]
 }

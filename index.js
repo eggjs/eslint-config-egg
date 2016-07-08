@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   'extends': [
-    './rules/es6',
-    './legacy',
+    './lib/rules/es6',
+    './lib/legacy',
   ].map(require.resolve),
 };

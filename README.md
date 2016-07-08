@@ -9,7 +9,7 @@ package.json
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "~2.0.0",
+    "eslint-config-egg": "^3.0.0",
     "eslint": "2"
   }
 }

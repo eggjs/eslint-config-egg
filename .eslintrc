@@ -1,6 +1,3 @@
 {
-  "extends": "./index.js",
-  "rules": {
-    "no-magic-numbers": "off"
-  }
+  "extends": "./index.js"
 }

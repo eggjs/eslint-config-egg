@@ -9,7 +9,7 @@ module.exports = {
       jsx: true,
     },
   },
-  'extends': [
+  extends: [
     './lib/rules/es6',
     './lib/legacy',
   ].map(require.resolve),

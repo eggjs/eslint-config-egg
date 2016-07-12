@@ -4,11 +4,12 @@
   "description": "Node Style Guide for Egg.",
   "main": "index",
   "devDependencies": {
-    "eslint": "2",
+    "egg-ci": "1",
+    "eslint": "3",
     "mocha": "2"
   },
   "peerDependencies": {
-    "eslint": "2"
+    "eslint": ">= 2.0.0 < 4.0.0"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   },
   "engines": {
     "node": ">= 4.0.0"
+  },
+  "ci": {
+    "version": "4, 6"
   },
   "files": [
     ".eslintrc",

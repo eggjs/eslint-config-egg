@@ -1,4 +1,10 @@
 
+3.1.0 / 2016-07-13
+==================
+
+  * doc: add more usage in readme (#18)
+  * feat: sourceType, no-extra-parens, brace-style, no-console (#17)
+
 3.0.3 / 2016-07-12
 ==================
 

@@ -54,13 +54,13 @@ module.exports = {
   parser: 'babel-eslint',
   rules: {
     // see https://github.com/eslint/eslint/issues/6274
-    'generator-star-spacing': 0,
-    'babel/generator-star-spacing': 0,
+    'generator-star-spacing': 'off',
+    'babel/generator-star-spacing': 'off',
   }
 };
 ```
 
-### Use with React in Front-end
+### Use with React in Front-End
 
 If you want to use eslint-config-egg with react, jsx and es6 modules:
 
@@ -93,10 +93,10 @@ module.exports = {
   ],
   rules: {
     // for variables in jsx
-    'react/jsx-uses-vars': 1,
+    'react/jsx-uses-vars': 'error',
     // see https://github.com/eslint/eslint/issues/6274
-    'generator-star-spacing': 0,
-    'babel/generator-star-spacing': 0,
+    'generator-star-spacing': 'off',
+    'babel/generator-star-spacing': 'off',
   },
 };
 ```

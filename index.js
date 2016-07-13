@@ -4,7 +4,7 @@ module.exports = {
   parser: 'espree',
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'modules',
+    sourceType: 'script',
     ecmaFeatures: {
       jsx: true,
     },

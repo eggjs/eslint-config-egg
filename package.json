@@ -3,10 +3,17 @@
   "version": "3.1.0",
   "description": "Node Style Guide for Egg.",
   "main": "index",
+  "files": [
+    ".eslintrc",
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {},
   "devDependencies": {
-    "egg-ci": "1",
-    "eslint": "3",
-    "mocha": "2"
+    "autod": "^2.7.1",
+    "egg-ci": "^1.0.3",
+    "eslint": "^3.9.1",
+    "mocha": "^3.1.2"
   },
   "peerDependencies": {
     "eslint": ">= 2.0.0 < 4.0.0"
@@ -18,6 +25,7 @@
   "homepage": "https://github.com/eggjs/eslint-config-egg",
   "author": "popomore <sakura9515@gmail.com>",
   "scripts": {
+    "autod": "autod",
     "lint": "eslint test lib *.js",
     "test": "mocha",
     "ci": "npm run lint && npm run test"
@@ -26,11 +34,6 @@
     "node": ">= 4.0.0"
   },
   "ci": {
-    "version": "4, 6"
-  },
-  "files": [
-    ".eslintrc",
-    "index.js",
-    "lib"
-  ]
+    "version": "4, 6, 7"
+  }
 }

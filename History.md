@@ -1,4 +1,10 @@
 
+3.2.0 / 2016-11-03
+==================
+
+  * feat: disable no-useless-escape (#21)
+  * doc: reference about trailing commas (#19)
+
 3.1.0 / 2016-07-13
 ==================
 

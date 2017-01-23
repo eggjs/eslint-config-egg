@@ -8,4 +8,10 @@ module.exports = {
     './lib/rules/react-a11y',
   ].map(require.resolve),
   rules: {},
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+      experimentalObjectRestSpread: true,
+    },
+  },
 };

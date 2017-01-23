@@ -6,6 +6,7 @@
   "files": [
     ".eslintrc",
     "index.js",
+    "legacy.js",
     "lib"
   ],
   "dependencies": {},

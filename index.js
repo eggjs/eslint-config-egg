@@ -5,7 +5,6 @@ module.exports = {
     './lib/legacy',
     './lib/rules/es6',
   ].map(require.resolve),
-  parser: 'espree',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'script',

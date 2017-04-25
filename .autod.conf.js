@@ -16,4 +16,7 @@ module.exports = {
     'mocha',
     'egg-ci',
   ],
+  semver: [
+    'egg-bin@1',
+  ],
 };

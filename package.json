@@ -11,26 +11,17 @@
     "lib"
   ],
   "dependencies": {
-
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.10.3"
   },
   "devDependencies": {
     "autod": "^2.8.0",
-    "babel-eslint": "^7.1.1",
     "coffee": "^3.3.0",
     "egg-bin": "^1.0.0",
     "egg-ci": "^1.6.0",
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^3.0.0",
-    "eslint-plugin-react": "^6.9.0",
-    "mocha": "^3.3.0"
-  },
-  "peerDependencies": {
-    "babel-eslint": "^7.1.0",
-    "eslint": ">= 2.0.0 < 4.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.9.0",
-    "eslint-plugin-jsx-a11y": "^3.0.0"
+    "eslint": "^3.19.0"
   },
   "repository": {
     "type": "git",
@@ -40,7 +31,7 @@
   "author": "popomore <sakura9515@gmail.com>",
   "scripts": {
     "autod": "autod",
-    "lint": "eslint test lib *.js",
+    "lint": "eslint test/*.test.js lib *.js",
     "test": "egg-bin test",
     "ci": "npm run lint && npm run test"
   },

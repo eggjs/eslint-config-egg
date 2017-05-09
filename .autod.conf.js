@@ -8,15 +8,22 @@ module.exports = {
     'test/fixtures',
     'examples',
     'benchmarks',
-    "docs",
+    'docs',
+  ],
+  dep: [
+    'babel-eslint',
+    'eslint-plugin-import',
+    'eslint-plugin-react',
+    'eslint-plugin-jsx-a11y',
   ],
   devdep: [
     'autod',
     'eslint',
-    'mocha',
     'egg-ci',
   ],
   semver: [
     'egg-bin@1',
+    'eslint-plugin-jsx-a11y@3',
+    'eslint-plugin-react@6',
   ],
 };

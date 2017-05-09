@@ -21,11 +21,7 @@
     "coffee": "^3.3.0",
     "egg-bin": "^1.0.0",
     "egg-ci": "^1.6.0",
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^3.0.0",
-    "eslint-plugin-react": "^6.9.0",
-    "mocha": "^3.3.0"
+    "eslint": "^3.19.0"
   },
   "repository": {
     "type": "git",

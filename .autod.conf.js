@@ -19,10 +19,11 @@ module.exports = {
   devdep: [
     'autod',
     'eslint',
-    'mocha',
     'egg-ci',
   ],
   semver: [
     'egg-bin@1',
+    'eslint-plugin-jsx-a11y@3',
+    'eslint-plugin-react@6',
   ],
 };

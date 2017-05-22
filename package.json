@@ -14,7 +14,8 @@
     "babel-eslint": "^7.2.3",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^6.10.3",
+    "snyk": "^1.30.1"
   },
   "devDependencies": {
     "autod": "^2.8.0",
@@ -33,12 +34,15 @@
     "autod": "autod",
     "lint": "eslint test/*.test.js lib *.js",
     "test": "egg-bin test",
-    "ci": "npm run lint && npm run test"
+    "ci": "npm run lint && npm run test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">= 4.0.0"
   },
   "ci": {
     "version": "4, 6, 7"
-  }
+  },
+  "snyk": true
 }

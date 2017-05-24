@@ -12,4 +12,12 @@ describe('test/react.test.js', () => {
       .expect('code', 0)
       .end();
   });
+
+  it('should disable forbid-prop-types', () => {
+    const cwd = path.join(__dirname, 'fixtures/react-app');
+    return coffee.spawn('eslint', [ 'forbid-prop-types.jsx' ], { cwd })
+      .debug()
+      .expect('code', 0)
+      .end();
+  });
 });

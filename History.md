@@ -1,4 +1,9 @@
 
+4.2.0 / 2017-05-25
+==================
+
+  * feat: disable forbid-prop-types and require-default-props (#26)
+
 4.1.0 / 2017-05-09
 ==================
 

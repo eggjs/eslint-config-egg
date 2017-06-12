@@ -1,4 +1,9 @@
 
+4.2.1 / 2017-06-12
+==================
+
+  * fix: remove unused ecmaFeatures, compatible with eslint4 (#28)
+
 4.2.0 / 2017-05-25
 ==================
 

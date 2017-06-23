@@ -12,15 +12,15 @@
   ],
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^7.1.0"
   },
   "devDependencies": {
     "autod": "^2.8.0",
-    "coffee": "^3.3.0",
+    "coffee": "^4.0.1",
     "egg-bin": "^1.0.0",
-    "egg-ci": "^1.6.0",
+    "egg-ci": "^1.8.0",
     "eslint": "^4.0.0"
   },
   "repository": {

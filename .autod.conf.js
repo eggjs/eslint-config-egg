@@ -23,6 +23,5 @@ module.exports = {
   ],
   semver: [
     'egg-bin@1',
-    'eslint-plugin-jsx-a11y@3',
   ],
 };

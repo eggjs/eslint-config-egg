@@ -1,4 +1,10 @@
 
+5.0.0 / 2017-06-28
+==================
+
+  * feat: upgrade eslint-plugin-jsx-a11y (#30)
+  * feat: BREAKING_CHANGE upgarde eslint-plugin-react (#29)
+
 4.2.1 / 2017-06-12
 ==================
 

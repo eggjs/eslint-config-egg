@@ -3,6 +3,7 @@
 module.exports = {
   extends: [
     './index',
+    './lib/rules/browser',
     './lib/rules/import',
     './lib/rules/react',
     './lib/rules/react-a11y',

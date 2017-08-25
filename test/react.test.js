@@ -39,6 +39,15 @@ describe('test/react.test.js', () => {
         .expect('code', 1)
         .end();
     });
+  });
 
+  describe('browser', () => {
+    it('should be enable', () => {
+      const cwd = path.join(__dirname, 'fixtures/react-app');
+      return coffee.spawn('eslint', [ 'browser.js' ], { cwd })
+        .debug()
+        .expect('code', 0)
+        .end();
+    });
   });
 });

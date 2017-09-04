@@ -1,4 +1,10 @@
 
+5.1.1 / 2017-09-04
+==================
+
+**fixes**
+  * [[`3142d5b`](http://github.com/eggjs/eslint-config-egg/commit/3142d5b0f821fee9d4a7e284ad7d7b75ca46887c)] - fix: disable functions options in comma-dangle (#32) (Haoliang Gao <<sakura9515@gmail.com>>)
+
 5.1.0 / 2017-08-25
 ==================
 

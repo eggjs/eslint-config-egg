@@ -1,4 +1,10 @@
 
+6.0.0 / 2017-12-26
+==================
+
+**others**
+  * [[`503d872`](http://github.com/eggjs/eslint-config-egg/commit/503d87239183d9abed36a4b3253cb148b45029c6)] - deps: upgrade babel-eslint (#33) (Haoliang Gao <<sakura9515@gmail.com>>)
+
 5.1.1 / 2017-09-04
 ==================
 

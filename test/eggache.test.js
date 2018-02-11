@@ -3,17 +3,15 @@
 const path = require('path');
 const coffee = require('coffee');
 
-describe('test/index.test.js', () => {
+describe('test/eggache.test.js', () => {
   const cwd = path.join(__dirname, 'fixtures/eggache');
 
-  describe('comma dangle', () => {
-    it('should fail when got newbie issue', () => {
-      return coffee.spawn('eslint', [ '.' ], { cwd })
-        // .debug()
-        .expect('stdout', /eggache\/no-override-exports/)
-        .expect('stdout', /eggache\/no-unexpected-plugin-keys/)
-        .expect('code', 1)
-        .end();
-    });
+  it('should fail when got newbie issue', () => {
+    return coffee.spawn('eslint', [ '.' ], { cwd })
+      // .debug()
+      .expect('stdout', /eggache\/no-override-exports/)
+      .expect('stdout', /eggache\/no-unexpected-plugin-keys/)
+      .expect('code', 1)
+      .end();
   });
 });

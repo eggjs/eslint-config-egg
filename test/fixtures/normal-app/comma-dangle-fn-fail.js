@@ -2,11 +2,11 @@
 
 function bar(
   a,
-  b
+  b,
 ) {
   console.log(a, b);
 }
 bar(
   1,
-  2
+  2,
 );

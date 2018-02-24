@@ -8,7 +8,7 @@ describe('test/es8.test.js', () => {
   it('should support async function', () => {
     const cwd = path.join(__dirname, 'fixtures/es8');
     return coffee.spawn('eslint', [ 'index.js' ], { cwd })
-      .debug()
+      // .debug()
       .expect('code', 0)
       .end();
   });

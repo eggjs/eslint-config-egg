@@ -8,7 +8,7 @@ describe('test/react.test.js', () => {
   it('should support jsx', () => {
     const cwd = path.join(__dirname, 'fixtures/react-app');
     return coffee.spawn('eslint', [ 'jsx.jsx' ], { cwd })
-      .debug()
+      // .debug()
       .expect('code', 0)
       .end();
   });
@@ -16,7 +16,7 @@ describe('test/react.test.js', () => {
   it('should disable forbid-prop-types', () => {
     const cwd = path.join(__dirname, 'fixtures/react-app');
     return coffee.spawn('eslint', [ 'forbid-prop-types.jsx' ], { cwd })
-      .debug()
+      // .debug()
       .expect('code', 0)
       .end();
   });
@@ -34,7 +34,7 @@ describe('test/react.test.js', () => {
     it('should error with anchor-is-valid', () => {
       const cwd = path.join(__dirname, 'fixtures/react-app');
       return coffee.spawn('eslint', [ 'a11y/anchor-is-valid-error.jsx' ], { cwd })
-        .debug()
+        // .debug()
         .expect('stdout', /jsx-a11y\/anchor-is-valid/)
         .expect('code', 1)
         .end();
@@ -45,7 +45,7 @@ describe('test/react.test.js', () => {
     it('should be enable', () => {
       const cwd = path.join(__dirname, 'fixtures/react-app');
       return coffee.spawn('eslint', [ 'browser.js' ], { cwd })
-        .debug()
+        // .debug()
         .expect('code', 0)
         .end();
     });

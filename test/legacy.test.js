@@ -8,7 +8,7 @@ describe('test/legacy.test.js', () => {
 
   it('should fail when use es6', () => {
     return coffee.spawn('eslint', [ 'es6-fail.js' ], { cwd })
-      .debug()
+      // .debug()
       .expect('stdout', /The keyword 'const' is reserved/)
       .expect('code', 1)
       .end();
@@ -16,7 +16,7 @@ describe('test/legacy.test.js', () => {
 
   it('should disable browser', () => {
     return coffee.spawn('eslint', [ 'browser.js' ], { cwd })
-      .debug()
+      // .debug()
       .expect('stdout', /'name' is not defined/)
       .expect('code', 1)
       .end();

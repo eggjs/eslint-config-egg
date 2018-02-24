@@ -15,6 +15,7 @@ module.exports = {
     'eslint-plugin-import',
     'eslint-plugin-react',
     'eslint-plugin-jsx-a11y',
+    'eslint-plugin-eggache',
   ],
   devdep: [
     'autod',

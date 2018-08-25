@@ -3,7 +3,7 @@
 const builtin = [
   './lib/legacy',
   './lib/rules/es6',
-  './lib/rules/es8',
+  './lib/rules/esnext',
 ].map(require.resolve);
 
 module.exports = {

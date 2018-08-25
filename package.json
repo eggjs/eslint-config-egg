@@ -11,18 +11,18 @@
     "lib"
   ],
   "dependencies": {
-    "babel-eslint": "^8.2.2",
+    "babel-eslint": "^8.2.6",
     "eslint-plugin-eggache": "^1.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
-    "coffee": "^4.1.0",
+    "coffee": "^5.1.0",
     "egg-bin": "^1.0.0",
     "egg-ci": "^1.8.0",
-    "eslint": "^4.18.1"
+    "eslint": "^5.4.0"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,10 @@
 
+7.2.0 / 2019-03-11
+==================
+
+**features**
+  * [[`ba9a317`](http://github.com/eggjs/eslint-config-egg/commit/ba9a317f7a5e9f81fcfe337eb15a6a7f60d74638)] - feat: add prefer promise reject errors (#38) (Yiyu He <<dead_horse@qq.com>>)
+
 7.1.0 / 2018-08-25
 ==================
 

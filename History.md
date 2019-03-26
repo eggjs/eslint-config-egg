@@ -1,4 +1,13 @@
 
+7.3.0 / 2019-03-26
+==================
+
+**features**
+  * [[`e1935e3`](http://github.com/eggjs/eslint-config-egg/commit/e1935e38bca406fc8b981620a93cd6f5fd050b28)] - feat: jsdoc improvement (#40) (吖猩 <<whxaxes@qq.com>>)
+
+**others**
+  * [[`e4c222b`](http://github.com/eggjs/eslint-config-egg/commit/e4c222b3bb4f81634c367744a7eca2e508c10385)] - chore: add contributors on README (#39) (fengmk2 <<fengmk2@gmail.com>>)
+
 7.2.0 / 2019-03-11
 ==================
 

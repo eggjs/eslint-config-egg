@@ -1,4 +1,10 @@
 
+7.3.1 / 2019-03-27
+==================
+
+**fixes**
+  * [[`34ca417`](http://github.com/eggjs/eslint-config-egg/commit/34ca4179f1e4e20ef34acdc502488f1422977920)] - fix: remove check-example rule (#41) (吖猩 <<whxaxes@qq.com>>)
+
 7.3.0 / 2019-03-26
 ==================
 

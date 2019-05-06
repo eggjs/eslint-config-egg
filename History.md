@@ -1,4 +1,10 @@
 
+7.4.0 / 2019-05-06
+==================
+
+**features**
+  * [[`5f86efe`](http://github.com/eggjs/eslint-config-egg/commit/5f86efee0f9d1421a75fa0697c6ac7c95b275630)] - feat: linebreak-style at win (#42) (TZ | 天猪 <<atian25@qq.com>>)
+
 7.3.1 / 2019-03-27
 ==================
 

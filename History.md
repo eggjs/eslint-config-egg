@@ -1,4 +1,10 @@
 
+7.4.1 / 2019-05-06
+==================
+
+**fixes**
+  * [[`491fee8`](http://github.com/eggjs/eslint-config-egg/commit/491fee8366d4b029c71eeb9d9f8cad3925aafb45)] - fix: ignore linebreak-style at win (#43) (TZ | 天猪 <<atian25@qq.com>>)
+
 7.4.0 / 2019-05-06
 ==================
 

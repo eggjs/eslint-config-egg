@@ -36,17 +36,13 @@
     "autod": "autod",
     "lint": "eslint test/*.test.js lib *.js",
     "test": "egg-bin test",
-    "cov": "egg-bin cov",
-    "ci": "npm run lint && npm run cov",
+    "ci": "npm run lint && npm run test",
     "contributor": "git-contributor"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "ci": {
-    "os": {
-      "travis": "linux, windows"
-    },
     "version": "6, 8, 10, 12"
   }
 }

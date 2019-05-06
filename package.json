@@ -43,6 +43,9 @@
     "node": ">=6.0.0"
   },
   "ci": {
-    "version": "6, 8, 10"
+    "os": {
+      "travis": "linux, windows"
+    },
+    "version": "6, 8, 10, 12"
   }
 }

@@ -36,7 +36,8 @@
     "autod": "autod",
     "lint": "eslint test/*.test.js lib *.js",
     "test": "egg-bin test",
-    "ci": "npm run lint && npm run test",
+    "cov": "egg-bin cov",
+    "ci": "npm run lint && npm run cov",
     "contributor": "git-contributor"
   },
   "engines": {

@@ -29,6 +29,30 @@ module.exports = {
 };
 ```
 
+### Use with TypeScript project
+
+- `package.json`
+
+```json
+{
+  "devDependencies": {
+    "eslint-config-egg": "7",
+    "typescript": "^3.5.3"
+  }
+}
+```
+
+- `.eslintrc.js`
+
+```js
+module.exports = {
+  extends: 'eslint-config-egg/typescript',
+  parserOptions: {
+    project: './tsconfig.json'
+  }
+};
+```
+
 ### Use with Experimental Features
 
 If you want to use eslint-config-egg with experimental features such as `async function`, you should use `babel-eslint` parser:

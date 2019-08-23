@@ -1,4 +1,13 @@
 
+7.5.0 / 2019-08-23
+==================
+
+**features**
+  * [[`302b736`](http://github.com/eggjs/eslint-config-egg/commit/302b736be4888a38a16c76785c7f31d55819322c)] - feat: support typescript (#46) (吖猩 <<whxaxes@gmail.com>>)
+
+**others**
+  * [[`585d2b3`](http://github.com/eggjs/eslint-config-egg/commit/585d2b3a52a4f5c640f8e1afc863615fd1820dc6)] - chore: Update .travis.yml (#45) (TZ | 天猪 <<atian25@qq.com>>)
+
 7.4.1 / 2019-05-06
 ==================
 

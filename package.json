@@ -8,9 +8,12 @@
     "index.js",
     "legacy.js",
     "react.js",
+    "typescript.js",
     "lib"
   ],
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
     "babel-eslint": "^8.2.6",
     "eslint-plugin-eggache": "^1.0.0",
     "eslint-plugin-import": "^2.14.0",
@@ -24,7 +27,8 @@
     "egg-bin": "^1.0.0",
     "egg-ci": "^1.8.0",
     "eslint": "^5.4.0",
-    "git-contributor": "^1.0.10"
+    "git-contributor": "^1.0.10",
+    "typescript": "^3.5.3"
   },
   "repository": {
     "type": "git",
@@ -40,9 +44,9 @@
     "contributor": "git-contributor"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "ci": {
-    "version": "6, 8, 10, 12"
+    "version": "8, 10, 12"
   }
 }

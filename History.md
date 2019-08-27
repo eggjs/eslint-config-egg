@@ -1,4 +1,10 @@
 
+7.5.1 / 2019-08-27
+==================
+
+**fixes**
+  * [[`ed14802`](http://github.com/eggjs/eslint-config-egg/commit/ed1480222dd6a8f77121cbe679fe59fbf757662d)] - fix: no need to lint empty interface and params (#47) (吖猩 <<whxaxes@gmail.com>>)
+
 7.5.0 / 2019-08-23
 ==================
 

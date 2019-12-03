@@ -1,4 +1,11 @@
 
+8.0.0 / 2019-12-03
+==================
+
+**features**
+  * [[`4f5852c`](http://github.com/eggjs/eslint-config-egg/commit/4f5852c481ad3b527636f9f168193646a76768b1)] - feat: [BREAKING_CHANGE] use ecma 2020 supporting bigint (#49) (Haoliang Gao <<sakura9515@gmail.com>>)
+  * [[`664eead`](http://github.com/eggjs/eslint-config-egg/commit/664eeadbb50c6fca78c5e443b2c2aa08057c1436)] - feat: no-this-alias allow self=this (#48) (Jing Cui <<cjing0620@gmail.com>>)
+
 7.5.1 / 2019-08-27
 ==================
 

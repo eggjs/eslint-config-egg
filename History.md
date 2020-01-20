@@ -1,4 +1,10 @@
 
+8.0.1 / 2020-01-20
+==================
+
+**fixes**
+  * [[`2591d1d`](http://github.com/eggjs/eslint-config-egg/commit/2591d1d2b64ba89c0a6f27b537d7706e5e4b3ce7)] - fix: unused vars rule (#50) (Angela <<idu.angela@gmail.com>>)
+
 8.0.0 / 2019-12-03
 ==================
 

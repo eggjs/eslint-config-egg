@@ -155,7 +155,7 @@ describe('test/ts.test.js', () => {
     it('should success with unused variables', () => {
       return coffee.spawn('eslint', [ './reference/unused-vars.ts' ], { cwd })
         // .debug()
-        .expect('code', 0)
+        .expect('code', 1)
         .end();
     });
   });

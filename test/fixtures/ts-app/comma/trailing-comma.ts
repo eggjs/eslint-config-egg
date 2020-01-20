@@ -15,12 +15,4 @@ function foo2(
   console.info(a + b);
 }
 
-import {
-  a,
-  b,
-} from 'egg';
-
-export {
-  a,
-  b,
-} from 'egg';
+export { foo2 };

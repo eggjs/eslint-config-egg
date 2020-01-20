@@ -151,5 +151,12 @@ describe('test/ts.test.js', () => {
         .expect('code', 0)
         .end();
     });
+
+    it('should success with unused variables', () => {
+      return coffee.spawn('eslint', [ './reference/unused-vars.ts' ], { cwd })
+        // .debug()
+        .expect('code', 0)
+        .end();
+    });
   });
 });

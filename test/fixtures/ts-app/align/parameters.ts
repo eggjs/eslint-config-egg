@@ -4,3 +4,5 @@ function bar(
 ) {
   console.info(a, b);
 }
+
+export { bar };

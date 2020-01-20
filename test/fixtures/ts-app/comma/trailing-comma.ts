@@ -16,11 +16,12 @@ function foo2(
 }
 
 import {
-  a,
-  b,
-} from 'egg';
+  fork,
+  spawn,
+} from 'coffee';
 
 export {
-  a,
-  b,
-} from 'egg';
+  Rule,
+} from 'coffee';
+
+export { foo2, fork, spawn };

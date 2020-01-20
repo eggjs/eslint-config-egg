@@ -15,4 +15,13 @@ function foo2(
   console.info(a + b);
 }
 
-export { foo2 };
+import {
+  fork,
+  spawn,
+} from 'coffee';
+
+export {
+  Rule,
+} from 'coffee';
+
+export { foo2, fork, spawn };

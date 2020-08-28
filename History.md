@@ -1,4 +1,10 @@
 
+8.1.0 / 2020-08-28
+==================
+
+**features**
+  * [[`4215571`](http://github.com/eggjs/eslint-config-egg/commit/4215571a6c61c3c07fe443515a9e8704e23e8185)] - feat: upgrade typescript-eslint (#53) (吖猩 <<whx89768@alibaba-inc.com>>)
+
 8.0.1 / 2020-01-20
 ==================
 

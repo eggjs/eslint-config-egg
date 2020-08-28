@@ -100,7 +100,7 @@ describe('test/ts.test.js', () => {
 
     it('should success with members', () => {
       return coffee.spawn('eslint', [ './align/members.ts' ], { cwd })
-        .debug()
+        // .debug()
         .expect('code', 0)
         .end();
     });
@@ -122,7 +122,7 @@ describe('test/ts.test.js', () => {
 
     it('should fail with parameters', () => {
       return coffee.spawn('eslint', [ './align/parameters-error.ts' ], { cwd })
-        .debug()
+        // .debug()
         .expect('stdout', /indent/)
         .expect('code', 1)
         .end();
@@ -130,7 +130,7 @@ describe('test/ts.test.js', () => {
 
     it('should success with statements', () => {
       return coffee.spawn('eslint', [ './align/statements.ts' ], { cwd })
-        .debug()
+        // .debug()
         .expect('code', 0)
         .end();
     });
@@ -156,6 +156,49 @@ describe('test/ts.test.js', () => {
       return coffee.spawn('eslint', [ './reference/unused-vars.ts' ], { cwd })
         // .debug()
         .expect('code', 1)
+        .end();
+    });
+  });
+
+  describe('no-useless-constructor', () => {
+    it('should success', () => {
+      return coffee.spawn('eslint', [ './constructor/correct.ts' ], { cwd })
+        // .debug()
+        .expect('code', 0)
+        .end();
+    });
+
+    it('should fail', () => {
+      return coffee.spawn('eslint', [ './constructor/not-correct.ts' ], { cwd })
+        // .debug()
+        .expect('code', 1)
+        .expect('stdout', /@typescript-eslint\/no-useless-constructor/)
+        .end();
+    });
+  });
+
+  describe('no-use-before-define', () => {
+    it('should success', () => {
+      return coffee.spawn('eslint', [ './no-use-before-define/correct.ts' ], { cwd })
+        // .debug()
+        .expect('code', 0)
+        .end();
+    });
+
+    it('should fail', () => {
+      return coffee.spawn('eslint', [ './no-use-before-define/not-correct.ts' ], { cwd })
+        // .debug()
+        .expect('code', 1)
+        .expect('stdout', /@typescript-eslint\/no-use-before-define/)
+        .end();
+    });
+  });
+
+  describe('no-undef', () => {
+    it('should success', () => {
+      return coffee.spawn('eslint', [ './no-undef/correct.ts' ], { cwd })
+        // .debug()
+        .expect('code', 0)
         .end();
     });
   });

@@ -202,4 +202,21 @@ describe('test/ts.test.js', () => {
         .end();
     });
   });
+
+  describe('ban-types', () => {
+    it('should success', () => {
+      return coffee.spawn('eslint', [ './ban-types/correct.ts' ], { cwd })
+        .debug()
+        .expect('code', 0)
+        .end();
+    });
+
+    it('should fail', () => {
+      return coffee.spawn('eslint', [ './ban-types/not-correct.ts' ], { cwd })
+        // .debug()
+        .expect('code', 1)
+        .expect('stdout', /@typescript-eslint\/ban-types/)
+        .end();
+    });
+  });
 });

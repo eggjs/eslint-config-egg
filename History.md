@@ -1,4 +1,10 @@
 
+8.1.1 / 2020-08-31
+==================
+
+**fixes**
+  * [[`c941ab1`](http://github.com/eggjs/eslint-config-egg/commit/c941ab15f2d74936e7c1fb4fd58b83866f70f24f)] - fix: reduce type check (#54) (吖猩 <<whx89768@alibaba-inc.com>>)
+
 8.1.0 / 2020-08-28
 ==================
 

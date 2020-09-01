@@ -1,4 +1,10 @@
 
+8.1.2 / 2020-09-01
+==================
+
+**fixes**
+  * [[`c12391c`](http://github.com/eggjs/eslint-config-egg/commit/c12391ce4c974615f59cf7026b3e662a56f189b4)] - fix: semi rules (#55) (吖猩 <<whx89768@alibaba-inc.com>>)
+
 8.1.1 / 2020-08-31
 ==================
 

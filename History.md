@@ -1,4 +1,10 @@
 
+9.0.0 / 2020-11-11
+==================
+
+**features**
+  * [[`f4bcafe`](http://github.com/eggjs/eslint-config-egg/commit/f4bcafebe46b6d4b9f259d7de7fe15af71f0bcca)] - feat: 修改 rules/node 中已被 eslint 废弃的 node rules，引入 eslint-plugin-node 及自定规则 (#57) (zhaoxingyue <<zxy.node.js@gmail.com>>)
+
 8.1.2 / 2020-09-01
 ==================
 

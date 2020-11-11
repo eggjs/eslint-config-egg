@@ -49,10 +49,6 @@ describe('test/node.test.js', () => {
         .expect('stdout', /prefer-global\/buffer/)
         .expect('stdout', /prefer-global\/console/)
         .expect('stdout', /prefer-global\/process/)
-        .expect('stdout', /prefer-global\/text-decoder/)
-        .expect('stdout', /prefer-global\/text-encoder/)
-        .expect('stdout', /prefer-global\/url/)
-        .expect('stdout', /prefer-global\/url-search-params/)
         .expect('code', 1)
         .end();
     });

@@ -16,6 +16,11 @@ module.exports = {
     'eslint-plugin-react',
     'eslint-plugin-jsx-a11y',
     'eslint-plugin-eggache',
+    '@typescript-eslint/eslint-plugin',
+    '@typescript-eslint/parser',
+    'eslint-plugin-jsdoc',
+    'eslint-plugin-node',
+    'eslint-plugin-redos',
   ],
   devdep: [
     'autod',

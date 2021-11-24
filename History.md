@@ -1,4 +1,10 @@
 
+10.0.0 / 2021-11-24
+==================
+
+**features**
+  * [[`bca9686`](http://github.com/eggjs/eslint-config-egg/commit/bca9686b3e0e084a71078a60830409e97704899a)] - feat: support eslint 8 (#59) (shadyzoz <<shadyzoz@icloud.com>>)
+
 9.0.0 / 2020-11-11
 ==================
 

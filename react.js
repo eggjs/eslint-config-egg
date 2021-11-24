@@ -8,7 +8,7 @@ module.exports = {
     './lib/rules/react',
     './lib/rules/react-a11y',
   ].map(require.resolve),
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   rules: {},
   parserOptions: {
     ecmaFeatures: {

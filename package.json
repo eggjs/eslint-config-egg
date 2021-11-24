@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-egg",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "description": "Node Style Guide for Egg.",
   "main": "index",
   "files": [
@@ -12,24 +12,26 @@
     "lib"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.0.0",
-    "@typescript-eslint/parser": "^3.0.0",
-    "babel-eslint": "^8.2.6",
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "eslint-plugin-eggache": "^1.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsdoc": "^4.1.1",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsdoc": "^37.0.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.27.1"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
-    "coffee": "^5.1.0",
-    "egg-bin": "^1.0.0",
-    "egg-ci": "^1.8.0",
-    "eslint": "^6.6.0",
+    "@babel/preset-react": "^7.16.0",
+    "autod": "^3.1.2",
+    "coffee": "^5.4.0",
+    "egg-bin": "^4.16.4",
+    "egg-ci": "^1.19.0",
+    "eslint": "^8.3.0",
     "git-contributor": "^1.0.10",
-    "typescript": "^3.5.3"
+    "typescript": "^4.5.2"
   },
   "repository": {
     "type": "git",
@@ -45,9 +47,9 @@
     "contributor": "git-contributor"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
   "ci": {
-    "version": "10, 12"
+    "version": "12, 14, 16"
   }
 }

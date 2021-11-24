@@ -15,8 +15,8 @@ npm i eslint eslint-config-egg --save-dev
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "7",
-    "eslint": "4"
+    "eslint-config-egg": "10",
+    "eslint": "8"
   }
 }
 ```
@@ -36,8 +36,8 @@ module.exports = {
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "7",
-    "typescript": "^3.5.3"
+    "eslint-config-egg": "8",
+    "typescript": "^4.5.2"
   }
 }
 ```
@@ -81,16 +81,17 @@ module.exports = {
 
 ### Use with Experimental Features
 
-If you want to use eslint-config-egg with experimental features such as `async function`, you should use `babel-eslint` parser:
+If you want to use eslint-config-egg with experimental features such as `async function`, you should use `@babel/eslint-parser` parser:
 
 - `package.json`
 
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "7",
-    "eslint": "4",
-    "babel-eslint": "8"
+    "eslint-config-egg": "10",
+    "eslint": "8",
+    "@babel/core": "7",
+    "@babel/eslint-parser": "7"
   }
 }
 ```
@@ -101,7 +102,7 @@ If you want to use eslint-config-egg with experimental features such as `async f
 module.exports = {
   extends: 'eslint-config-egg',
   // for experimental features support
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   rules: {
     // see https://github.com/eslint/eslint/issues/6274
     'generator-star-spacing': 'off',
@@ -119,9 +120,10 @@ If you want to use eslint-config-egg with react, jsx and es6 modules:
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "7",
-    "eslint": "4",
-    "babel-eslint": "8",
+    "eslint-config-egg": "10",
+    "eslint": "8",
+    "@babel/core": "7",
+    "@babel/eslint-parser": "7",
     "eslint-plugin-react": "7"
   }
 }
@@ -133,7 +135,7 @@ If you want to use eslint-config-egg with react, jsx and es6 modules:
 module.exports = {
   extends: 'eslint-config-egg',
   // for experimental features support
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     // for es6 module
     sourceType: 'module',

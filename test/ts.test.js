@@ -219,4 +219,13 @@ describe('test/ts.test.js', () => {
         .end();
     });
   });
+
+  describe('indent', () => {
+    it('should success', () => {
+      return coffee.spawn('eslint', [ './indent/decorator.ts' ], { cwd })
+        // .debug()
+        .expect('code', 0)
+        .end();
+    });
+  });
 });

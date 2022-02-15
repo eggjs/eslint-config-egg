@@ -1,4 +1,13 @@
 
+11.0.0 / 2022-02-16
+==================
+
+**features**
+  * [[`45e0b99`](http://github.com/eggjs/eslint-config-egg/commit/45e0b994947b05912ac066d46d3e742c162255f1)] - feat: add no-return-await rule (#60) (Ink <<chceyes@gmail.com>>)
+
+**fixes**
+  * [[`f1da22d`](http://github.com/eggjs/eslint-config-egg/commit/f1da22db946a953f12e6bec69acbec21c43bb0a9)] - fix: fix decorator indent in typescript (#61) (Haoliang Gao <<sakura9515@gmail.com>>)
+
 10.0.0 / 2021-11-24
 ==================
 

@@ -1,4 +1,10 @@
 
+11.0.1 / 2022-02-21
+==================
+
+**fixes**
+  * [[`60f9593`](http://github.com/eggjs/eslint-config-egg/commit/60f9593c05d89a34c82f6ca82eb03b13a923373e)] - fix: fix switchcase indent (#62) (Haoliang Gao <<sakura9515@gmail.com>>)
+
 11.0.0 / 2022-02-16
 ==================
 

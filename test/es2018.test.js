@@ -17,8 +17,7 @@ describe('test/es2018.test.js', () => {
   it('should fail when use return await syntax', () => {
     return coffee.spawn('eslint', [ 'no-return-await.js' ], { cwd })
       // .debug()
-      .expect('stdout', /Redundant use of `await` on a return value/)
-      .expect('code', 1)
+      .expect('code', 0)
       .end();
   });
 });

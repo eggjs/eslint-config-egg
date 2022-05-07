@@ -1,4 +1,10 @@
 
+11.1.0 / 2022-05-07
+==================
+
+**features**
+  * [[`1dd77e0`](http://github.com/eggjs/eslint-config-egg/commit/1dd77e033ba39954cde60cda7651c46cc9c94335)] - feat: disable no-return-await check (#63) (TZ | 天猪 <<atian25@qq.com>>)
+
 11.0.1 / 2022-02-21
 ==================
 

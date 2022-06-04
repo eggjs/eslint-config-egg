@@ -52,5 +52,8 @@
   "ci": {
     "type": "github",
     "version": "12, 14, 16"
+  },
+  "publishConfig": {
+    "tag": "latest-11"
   }
 }

@@ -15,7 +15,7 @@ npm i eslint eslint-config-egg --save-dev
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "11",
+    "eslint-config-egg": "12",
     "eslint": "8"
   }
 }
@@ -36,7 +36,7 @@ module.exports = {
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "11",
+    "eslint-config-egg": "12",
     "typescript": "^4.5.2"
   }
 }
@@ -88,7 +88,7 @@ If you want to use eslint-config-egg with experimental features such as `async f
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "11",
+    "eslint-config-egg": "12",
     "eslint": "8",
     "@babel/core": "7",
     "@babel/eslint-parser": "7"
@@ -120,7 +120,7 @@ If you want to use eslint-config-egg with react, jsx and es6 modules:
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "11",
+    "eslint-config-egg": "12",
     "eslint": "8",
     "@babel/core": "7",
     "@babel/eslint-parser": "7",

@@ -11,7 +11,6 @@ module.exports = {
   dep: [
     '@typescript-eslint/eslint-plugin',
     '@typescript-eslint/parser',
-    'babel-eslint',
     'eslint-plugin-eggache',
     'eslint-plugin-import',
     'eslint-plugin-jsdoc',

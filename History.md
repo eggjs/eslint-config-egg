@@ -1,4 +1,11 @@
 
+12.0.0 / 2022-06-04
+==================
+
+**others**
+  * [[`33ff253`](http://github.com/eggjs/eslint-config-egg/commit/33ff253fd1ee5a15e244f7905c69d6c6b29e9067)] - Create codeql-analysis.yml (fengmk2 <<fengmk2@gmail.com>>)
+  * [[`f5d58c4`](http://github.com/eggjs/eslint-config-egg/commit/f5d58c40bd850d60ea01043854e29db1d95b4d12)] - 👌 IMPROVE: [BREAKING] use eslint-plugin-jsdoc@39 to support Node.js 18 (#64) (fengmk2 <<fengmk2@gmail.com>>)
+
 11.1.0 / 2022-05-07
 ==================
 

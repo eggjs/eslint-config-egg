@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-egg",
   "version": "11.1.0",
-  "description": "Node Style Guide for Egg.",
+  "description": "Node.js Style Guide for Egg.",
   "main": "index",
   "files": [
     ".eslintrc",
@@ -18,7 +18,7 @@
     "@typescript-eslint/parser": "^5.4.0",
     "eslint-plugin-eggache": "^1.0.0",
     "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsdoc": "^37.0.3",
+    "eslint-plugin-jsdoc": "^39.3.0",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.27.1"
@@ -27,8 +27,8 @@
     "@babel/preset-react": "^7.16.0",
     "autod": "^3.1.2",
     "coffee": "^5.4.0",
-    "egg-bin": "^4.16.4",
-    "egg-ci": "^1.19.0",
+    "egg-bin": "5",
+    "egg-ci": "2",
     "eslint": "^8.3.0",
     "git-contributor": "^1.0.10",
     "typescript": "^4.5.2"
@@ -41,16 +41,18 @@
   "author": "popomore <sakura9515@gmail.com>",
   "scripts": {
     "autod": "autod",
-    "lint": "eslint test/*.test.js lib *.js",
+    "lint": "eslint test/*.test.js lib *.js --fix",
     "test": "egg-bin test",
-    "ci": "npm run lint && npm run test",
+    "ci": "npm run lint && egg-bin cov",
     "contributor": "git-contributor"
   },
   "engines": {
-    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    "node": ">= 14.17.0"
   },
   "ci": {
-    "type": "github",
-    "version": "12, 14, 16"
+    "version": "14, 16, 18",
+    "license": {
+      "year": "2015"
+    }
   }
 }

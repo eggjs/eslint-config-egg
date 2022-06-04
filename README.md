@@ -1,6 +1,23 @@
 # eslint-config-egg
 
-Node Style Guide for Egg.
+[![NPM version][npm-image]][npm-url]
+[![build status][ci-image]][ci-url]
+[![Test coverage][codecov-image]][codecov-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/eslint-config-egg.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/eslint-config-egg
+[ci-image]: https://github.com/eggjs/eslint-config-egg/actions/workflows/nodejs.yml/badge.svg
+[ci-url]: https://github.com/eggjs/eslint-config-egg/actions/workflows/nodejs.yml
+[codecov-image]: https://codecov.io/gh/eggjs/eslint-config-egg/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/eggjs/eslint-config-egg
+[snyk-image]: https://snyk.io/test/npm/eslint-config-egg/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/eslint-config-egg
+[download-image]: https://img.shields.io/npm/dm/eslint-config-egg.svg?style=flat-square
+[download-url]: https://npmjs.org/package/eslint-config-egg
+
+Node.js Style Guide for Egg.
 
 ## Install
 
@@ -15,7 +32,7 @@ npm i eslint eslint-config-egg --save-dev
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "10",
+    "eslint-config-egg": "12",
     "eslint": "8"
   }
 }
@@ -36,7 +53,7 @@ module.exports = {
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "8",
+    "eslint-config-egg": "12",
     "typescript": "^4.5.2"
   }
 }
@@ -88,7 +105,7 @@ If you want to use eslint-config-egg with experimental features such as `async f
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "10",
+    "eslint-config-egg": "12",
     "eslint": "8",
     "@babel/core": "7",
     "@babel/eslint-parser": "7"
@@ -120,7 +137,7 @@ If you want to use eslint-config-egg with react, jsx and es6 modules:
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "10",
+    "eslint-config-egg": "12",
     "eslint": "8",
     "@babel/core": "7",
     "@babel/eslint-parser": "7",
@@ -161,11 +178,11 @@ module.exports = {
 
 ## Contributors
 
-|[<img src="https://avatars.githubusercontent.com/u/360661?v=4" width="100px;"/><br/><sub><b>popomore</b></sub>](https://github.com/popomore)<br/>|[<img src="https://avatars.githubusercontent.com/u/5856440?v=4" width="100px;"/><br/><sub><b>whxaxes</b></sub>](https://github.com/whxaxes)<br/>|[<img src="https://avatars.githubusercontent.com/u/156269?v=4" width="100px;"/><br/><sub><b>fengmk2</b></sub>](https://github.com/fengmk2)<br/>|[<img src="https://avatars.githubusercontent.com/u/227713?v=4" width="100px;"/><br/><sub><b>atian25</b></sub>](https://github.com/atian25)<br/>|[<img src="https://avatars.githubusercontent.com/u/3580607?v=4" width="100px;"/><br/><sub><b>benjycui</b></sub>](https://github.com/benjycui)<br/>|[<img src="https://avatars.githubusercontent.com/u/3274850?v=4" width="100px;"/><br/><sub><b>geekdada</b></sub>](https://github.com/geekdada)<br/>|
+|[<img src="https://avatars.githubusercontent.com/u/360661?v=4" width="100px;"/><br/><sub><b>popomore</b></sub>](https://github.com/popomore)<br/>|[<img src="https://avatars.githubusercontent.com/u/156269?v=4" width="100px;"/><br/><sub><b>fengmk2</b></sub>](https://github.com/fengmk2)<br/>|[<img src="https://avatars.githubusercontent.com/u/5856440?v=4" width="100px;"/><br/><sub><b>whxaxes</b></sub>](https://github.com/whxaxes)<br/>|[<img src="https://avatars.githubusercontent.com/u/227713?v=4" width="100px;"/><br/><sub><b>atian25</b></sub>](https://github.com/atian25)<br/>|[<img src="https://avatars.githubusercontent.com/u/3580607?v=4" width="100px;"/><br/><sub><b>benjycui</b></sub>](https://github.com/benjycui)<br/>|[<img src="https://avatars.githubusercontent.com/u/3274850?v=4" width="100px;"/><br/><sub><b>geekdada</b></sub>](https://github.com/geekdada)<br/>|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[<img src="https://avatars.githubusercontent.com/u/985607?v=4" width="100px;"/><br/><sub><b>dead-horse</b></sub>](https://github.com/dead-horse)<br/>|[<img src="https://avatars.githubusercontent.com/u/2039144?v=4" width="100px;"/><br/><sub><b>sang4lv</b></sub>](https://github.com/sang4lv)<br/>|[<img src="https://avatars.githubusercontent.com/u/2724034?v=4" width="100px;"/><br/><sub><b>missjing</b></sub>](https://github.com/missjing)<br/>|[<img src="https://avatars.githubusercontent.com/u/9857273?v=4" width="100px;"/><br/><sub><b>ShadyZOZ</b></sub>](https://github.com/ShadyZOZ)<br/>|[<img src="https://avatars.githubusercontent.com/u/15117664?v=4" width="100px;"/><br/><sub><b>zhaoxingyue</b></sub>](https://github.com/zhaoxingyue)<br/>|[<img src="https://avatars.githubusercontent.com/u/10082151?v=4" width="100px;"/><br/><sub><b>bowei-jbw</b></sub>](https://github.com/bowei-jbw)<br/>|
-[<img src="https://avatars.githubusercontent.com/u/13050025?v=4" width="100px;"/><br/><sub><b>aladdin-add</b></sub>](https://github.com/aladdin-add)<br/>|[<img src="https://avatars.githubusercontent.com/u/143572?v=4" width="100px;"/><br/><sub><b>hotoo</b></sub>](https://github.com/hotoo)<br/>
+|[<img src="https://avatars.githubusercontent.com/u/985607?v=4" width="100px;"/><br/><sub><b>dead-horse</b></sub>](https://github.com/dead-horse)<br/>|[<img src="https://avatars.githubusercontent.com/u/2039144?v=4" width="100px;"/><br/><sub><b>sang4lv</b></sub>](https://github.com/sang4lv)<br/>|[<img src="https://avatars.githubusercontent.com/u/2972143?v=4" width="100px;"/><br/><sub><b>nightink</b></sub>](https://github.com/nightink)<br/>|[<img src="https://avatars.githubusercontent.com/u/2724034?v=4" width="100px;"/><br/><sub><b>missjing</b></sub>](https://github.com/missjing)<br/>|[<img src="https://avatars.githubusercontent.com/u/9857273?v=4" width="100px;"/><br/><sub><b>ShadyZOZ</b></sub>](https://github.com/ShadyZOZ)<br/>|[<img src="https://avatars.githubusercontent.com/u/15117664?v=4" width="100px;"/><br/><sub><b>zhaoxingyue</b></sub>](https://github.com/zhaoxingyue)<br/>|
+[<img src="https://avatars.githubusercontent.com/u/10082151?v=4" width="100px;"/><br/><sub><b>bowei-jbw</b></sub>](https://github.com/bowei-jbw)<br/>|[<img src="https://avatars.githubusercontent.com/u/13050025?v=4" width="100px;"/><br/><sub><b>aladdin-add</b></sub>](https://github.com/aladdin-add)<br/>|[<img src="https://avatars.githubusercontent.com/u/143572?v=4" width="100px;"/><br/><sub><b>hotoo</b></sub>](https://github.com/hotoo)<br/>
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Wed Nov 24 2021 15:28:00 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Thu Jun 02 2022 15:10:46 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->

@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-egg",
   "version": "11.1.0",
-  "description": "Node Style Guide for Egg.",
+  "description": "Node.js Style Guide for Egg.",
   "main": "index",
   "files": [
     ".eslintrc",
@@ -41,16 +41,18 @@
   "author": "popomore <sakura9515@gmail.com>",
   "scripts": {
     "autod": "autod",
-    "lint": "eslint test/*.test.js lib *.js",
+    "lint": "eslint test/*.test.js lib *.js --fix",
     "test": "egg-bin test",
-    "ci": "npm run lint && npm run test",
+    "ci": "npm run lint && egg-bin cov",
     "contributor": "git-contributor"
   },
   "engines": {
-    "node": "^14.17.0 || >=16.0.0"
+    "node": ">= 14.17.0"
   },
   "ci": {
-    "type": "github",
-    "version": "14, 16, 18"
+    "version": "14, 16, 18",
+    "license": {
+      "year": "2015"
+    }
   }
 }

@@ -1,5 +1,3 @@
-'use strict';
-
 const builtin = [
   './lib/legacy',
   './lib/rules/es6',

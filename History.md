@@ -1,4 +1,10 @@
 
+12.1.0 / 2022-09-29
+==================
+
+**others**
+  * [[`7ceb4f3`](http://github.com/eggjs/eslint-config-egg/commit/7ceb4f3ef107d9851ff6c25dff820e1587d2e6fd)] - deps: eslint-plugin-eggache@2.0.0 (#65) (TZ | 天猪 <<atian25@qq.com>>)
+
 12.0.0 / 2022-06-04
 ==================
 

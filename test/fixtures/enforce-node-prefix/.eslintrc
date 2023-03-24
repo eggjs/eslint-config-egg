@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "../../../typescript",
+    "../../../lib/rules/enforce-node-prefix"
+  ]
+}

@@ -26,9 +26,9 @@
   "devDependencies": {
     "@babel/preset-react": "^7.16.0",
     "coffee": "^5.4.0",
-    "egg-bin": "5",
+    "egg-bin": "6",
     "eslint": "^8.3.0",
-    "git-contributor": "^1.0.10",
+    "git-contributor": "2",
     "typescript": "^4.5.2"
   },
   "repository": {
@@ -39,7 +39,7 @@
   "author": "popomore <sakura9515@gmail.com>",
   "scripts": {
     "lint": "eslint test/*.test.js lib *.js --fix",
-    "test": "egg-bin test",
+    "test": "egg-bin test --ts false",
     "ci": "npm run lint && egg-bin cov",
     "contributor": "git-contributor"
   },

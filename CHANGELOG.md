@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.3.0](https://github.com/eggjs/eslint-config-egg/compare/v12.2.1...v12.3.0) (2023-09-16)
+
+
+### Features
+
+* avoid @typescript-eslint/typescript-estree warning message ([#69](https://github.com/eggjs/eslint-config-egg/issues/69)) ([afde702](https://github.com/eggjs/eslint-config-egg/commit/afde7022fcf991842f43699c0d1c944f9969a381))
+
 ## [12.2.1](https://github.com/eggjs/eslint-config-egg/compare/v12.2.0...v12.2.1) (2023-03-25)
 
 

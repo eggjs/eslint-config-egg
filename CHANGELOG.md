@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.3.1](https://github.com/eggjs/eslint-config-egg/compare/v12.3.0...v12.3.1) (2023-09-17)
+
+
+### Reverts
+
+* Revert "feat: avoid @typescript-eslint/typescript-estree warning message (#69)" ([1923200](https://github.com/eggjs/eslint-config-egg/commit/19232008170a6ec2480c624c97e6a01b1f26406a)), closes [#69](https://github.com/eggjs/eslint-config-egg/issues/69)
+
 ## [12.3.0](https://github.com/eggjs/eslint-config-egg/compare/v12.2.1...v12.3.0) (2023-09-16)
 
 

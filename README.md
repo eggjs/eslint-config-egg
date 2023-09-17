@@ -17,7 +17,7 @@
 [download-image]: https://img.shields.io/npm/dm/eslint-config-egg.svg?style=flat-square
 [download-url]: https://npmjs.org/package/eslint-config-egg
 
-Node.js Style Guide for Egg.
+Node.js Style Guide for Eggjs and Node.js
 
 ## Install
 
@@ -26,6 +26,8 @@ npm i eslint eslint-config-egg --save-dev
 ```
 
 ## Usage
+
+### Use with JavaScript project
 
 - `package.json`
 
@@ -38,12 +40,15 @@ npm i eslint eslint-config-egg --save-dev
 }
 ```
 
-- `.eslintrc.js`
+- `.eslintrc`
 
-```js
-module.exports = {
-  extends: 'eslint-config-egg',
-};
+```json
+{
+  "extends": [
+    "eslint-config-egg",
+    "eslint-config-egg/lib/rules/enforce-node-prefix"
+  ]
+}
 ```
 
 ### Use with TypeScript project
@@ -59,18 +64,15 @@ module.exports = {
 }
 ```
 
-- `.eslintrc.js`
+- `.eslintrc`
 
-```js
-module.exports = {
-  extends: 'eslint-config-egg/typescript',
-  parserOptions: {
-    // recommend to use another config file like tsconfig.eslint.json and extends tsconfig.json in it.
-    // because you may be need to lint test/**/*.test.ts but no need to emit to js.
-    // @see https://github.com/typescript-eslint/typescript-eslint/issues/890
-    project: './tsconfig.json'
-  }
-};
+```json
+{
+  "extends": [
+    "eslint-config-egg/typescript",
+    "eslint-config-egg/lib/rules/enforce-node-prefix"
+  ]
+}
 ```
 
 - `scripts`

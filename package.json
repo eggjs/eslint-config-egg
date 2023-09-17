@@ -14,8 +14,8 @@
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.3",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
     "eslint-plugin-eggache": "^2.0.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsdoc": "^39.3.0",
@@ -29,7 +29,7 @@
     "egg-bin": "6",
     "eslint": "^8.3.0",
     "git-contributor": "2",
-    "typescript": "^4.5.2"
+    "typescript": "^5.2.2"
   },
   "repository": {
     "type": "git",
@@ -44,6 +44,6 @@
     "contributor": "git-contributor"
   },
   "engines": {
-    "node": ">= 14.17.0"
+    "node": ">= 16.0.0"
   }
 }

@@ -44,6 +44,6 @@
     "contributor": "git-contributor"
   },
   "engines": {
-    "node": ">= 14.17.0"
+    "node": ">= 16.0.0"
   }
 }

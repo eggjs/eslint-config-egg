@@ -1,15 +1,13 @@
-# eslint-config-egg
+# eslint-config-egg@12
 
 [![NPM version][npm-image]][npm-url]
-[![build status][ci-image]][ci-url]
+[![CI](https://github.com/eggjs/eslint-config-egg/actions/workflows/nodejs.yml/badge.svg?branch=12.x)](https://github.com/eggjs/eslint-config-egg/actions/workflows/nodejs.yml)
 [![Test coverage][codecov-image]][codecov-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-egg.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/eslint-config-egg
-[ci-image]: https://github.com/eggjs/eslint-config-egg/actions/workflows/nodejs.yml/badge.svg
-[ci-url]: https://github.com/eggjs/eslint-config-egg/actions/workflows/nodejs.yml
 [codecov-image]: https://codecov.io/gh/eggjs/eslint-config-egg/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/eggjs/eslint-config-egg
 [snyk-image]: https://snyk.io/test/npm/eslint-config-egg/badge.svg?style=flat-square
@@ -22,7 +20,7 @@ Node.js Style Guide for Egg.
 ## Install
 
 ```bash
-npm i eslint eslint-config-egg --save-dev
+npm i eslint eslint-config-egg@12 --save-dev
 ```
 
 ## Usage

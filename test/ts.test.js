@@ -1,3 +1,5 @@
+'use strict';
+
 const path = require('path');
 const coffee = require('coffee');
 
@@ -161,7 +163,7 @@ describe('test/ts.test.js', () => {
   describe('no-useless-constructor', () => {
     it('should success', () => {
       return coffee.spawn('eslint', [ './constructor/correct.ts' ], { cwd })
-        .debug()
+        // .debug()
         .expect('code', 0)
         .end();
     });

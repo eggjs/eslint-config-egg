@@ -1,5 +1,28 @@
 # Changelog
 
+## [13.0.0](https://github.com/eggjs/eslint-config-egg/compare/v12.3.1...v13.0.0) (2023-09-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop Node.js < 16 support
+
+```
+WARNING: You are currently running a version of TypeScript which is not officially supported by @typescript-eslint/typescript-estree.
+
+You may find that it works just fine, or you may not.
+
+SUPPORTED TYPESCRIPT VERSIONS: >=3.3.1 <5.2.0
+
+YOUR TYPESCRIPT VERSION: 5.2.2
+
+Please only submit bug reports when using the officially supported version.
+```
+
+### Features
+
+* avoid @typescript-eslint/typescript-estree warning message ([#69](https://github.com/eggjs/eslint-config-egg/issues/69)) ([#70](https://github.com/eggjs/eslint-config-egg/issues/70)) ([2189460](https://github.com/eggjs/eslint-config-egg/commit/2189460b1b40c9c68abe7b6f999ee730f45d65ac))
+
 ## [12.3.1](https://github.com/eggjs/eslint-config-egg/compare/v12.3.0...v12.3.1) (2023-09-17)
 
 

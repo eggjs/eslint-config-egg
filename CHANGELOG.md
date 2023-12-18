@@ -1,5 +1,12 @@
 # Changelog
 
+## [13.1.0](https://github.com/eggjs/eslint-config-egg/compare/v13.0.0...v13.1.0) (2023-12-18)
+
+
+### Features
+
+* upgrade deps ([#71](https://github.com/eggjs/eslint-config-egg/issues/71)) ([82ddb9d](https://github.com/eggjs/eslint-config-egg/commit/82ddb9deeeb70f43dc0eb4229773540b7b217f39))
+
 ## [13.0.0](https://github.com/eggjs/eslint-config-egg/compare/v12.3.1...v13.0.0) (2023-09-17)
 
 

@@ -1,5 +1,27 @@
 # Changelog
 
+## [14.0.0](https://github.com/eggjs/eslint-config-egg/compare/v13.1.0...v14.0.0) (2024-06-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 18.19.0 support
+
+new features:
+
+ - support es2022 by default
+ - enable enforce-node-prefix by default
+
+other breaking changes:
+
+ - remove react rules
+ - remove babel
+ - drop TypeScript < 5 support
+
+### Features
+
+* enable enforce-node-prefix by default ([#73](https://github.com/eggjs/eslint-config-egg/issues/73)) ([a6802b0](https://github.com/eggjs/eslint-config-egg/commit/a6802b037db4d7cb4dc8bf21e6ced2953a2ad8d7))
+
 ## [13.1.0](https://github.com/eggjs/eslint-config-egg/compare/v13.0.0...v13.1.0) (2023-12-18)
 
 

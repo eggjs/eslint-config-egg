@@ -1,34 +1,30 @@
 {
   "name": "eslint-config-egg",
   "version": "13.1.0",
-  "description": "Node.js Style Guide for Egg.",
+  "engines": {
+    "node": ">= 18.19.0"
+  },
+  "description": "Node.js Style Guide for EggJS",
   "main": "index",
   "files": [
     ".eslintrc",
     "index.js",
     "legacy.js",
-    "react.js",
     "typescript.js",
     "lib"
   ],
   "dependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/eslint-parser": "^7.16.3",
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
     "eslint-plugin-eggache": "^2.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^46.9.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.33.2"
+    "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.16.0",
     "coffee": "^5.4.0",
     "egg-bin": "6",
     "eslint": "^8.3.0",
-    "git-contributor": "2",
     "typescript": "^5.2.2"
   },
   "repository": {
@@ -42,8 +38,5 @@
     "test": "egg-bin test --ts false",
     "ci": "npm run lint && egg-bin cov",
     "contributor": "git-contributor"
-  },
-  "engines": {
-    "node": ">= 16.0.0"
   }
 }

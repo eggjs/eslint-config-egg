@@ -1,7 +1,7 @@
 'use strict';
 
-const dns = require('dns');
-const fs = require('fs');
+const dns = require('node:dns');
+const fs = require('node:fs');
 
 () => {
   fs.readFile('./.eslintrc', 'utf8', (error, content) => {

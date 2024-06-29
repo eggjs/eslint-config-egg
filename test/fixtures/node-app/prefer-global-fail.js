@@ -1,22 +1,22 @@
 'use strict';
 
-const { Buffer } = require('buffer');
+const { Buffer } = require('node:buffer');
 Buffer.alloc(16);
 
-const console = require('console');
+const console = require('node:console');
 console.log('hello');
 
-const process = require('process');
+const process = require('node:process');
 process.exit(0);
 
-const { TextDecoder } = require('util');
+const { TextDecoder } = require('node:util');
 new TextDecoder();
 
-const { TextEncoder } = require('util');
-new TextEncoder()
+const { TextEncoder } = require('node:util');
+new TextEncoder();
 
-const { URLSearchParams } = require('url');
+const { URLSearchParams } = require('node:url');
 new URLSearchParams();
 
-const { URL } = require('url');
+const { URL } = require('node:url');
 new URL();

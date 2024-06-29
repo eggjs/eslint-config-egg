@@ -1,7 +1,7 @@
 'use strict';
 
-const { promises: dns } = require('dns');
-const { promises: fs } = require('fs');
+const { promises: dns } = require('node:dns');
+const { promises: fs } = require('node:fs');
 
 const readFile = async filePath => {
   const content = await fs.readFile(filePath, 'utf8');

@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('node:path');
 const coffee = require('coffee');
 
 describe('test/enforce-node-prefix.test.js', () => {

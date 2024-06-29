@@ -1,11 +1,10 @@
-name: CI
+name: CI for 13.x
 
 on:
   push:
-    branches: [ master ]
-
+    branches: [ 13.x ]
   pull_request:
-    branches: [ master ]
+    branches: [ 13.x ]
 
 jobs:
   Job:
@@ -13,4 +12,4 @@ jobs:
     uses: node-modules/github-actions/.github/workflows/node-test.yml@master
     with:
       os: 'ubuntu-latest'
-      version: '16, 18, 20'
+      version: '16, 18, 20, 22'

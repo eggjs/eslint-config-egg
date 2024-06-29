@@ -22,7 +22,7 @@ Node.js Style Guide for Eggjs and Node.js
 ## Install
 
 ```bash
-npm i eslint eslint-config-egg --save-dev
+npm i eslint@8 eslint-config-egg@13 --save-dev
 ```
 
 ## Usage

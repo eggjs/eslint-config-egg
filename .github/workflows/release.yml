@@ -1,8 +1,8 @@
-name: Release
+name: Release for 13.x
 
 on:
   push:
-    branches: [ master ]
+    branches: [ 13.x ]
 
 jobs:
   release:
@@ -11,5 +11,3 @@ jobs:
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
-    with:
-      checkTest: false

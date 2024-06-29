@@ -1,6 +1,9 @@
 {
   "name": "eslint-config-egg",
   "version": "13.1.0",
+  "engines": {
+    "node": ">= 16.0.0"
+  },
   "description": "Node.js Style Guide for Egg.",
   "main": "index",
   "files": [
@@ -42,8 +45,5 @@
     "test": "egg-bin test --ts false",
     "ci": "npm run lint && egg-bin cov",
     "contributor": "git-contributor"
-  },
-  "engines": {
-    "node": ">= 16.0.0"
   }
 }

@@ -1,10 +1,10 @@
-const path = require('path');
+const path = require('node:path');
 const coffee = require('coffee');
 
 describe('test/jsdoc.test.js', () => {
   const cwd = path.join(__dirname, 'fixtures/jsdoc-app');
 
-  it('should warnning when function params is not exist', () => {
+  it('should warning when function params is not exist', () => {
     return coffee.spawn('eslint', [ 'index.js' ], { cwd })
       // .debug()
       .expect('stdout', /warning {2}Missing JSDoc @param "abc" declaration/)

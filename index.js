@@ -1,7 +1,8 @@
 const builtin = [
   './lib/legacy',
+  './lib/rules/enforce-node-prefix',
   './lib/rules/es6',
-  './lib/rules/es2020',
+  './lib/rules/es2022',
 ].map(require.resolve);
 
 module.exports = {
@@ -9,7 +10,7 @@ module.exports = {
     'plugin:eggache/recommended',
   ]),
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
     sourceType: 'script',
   },
 };

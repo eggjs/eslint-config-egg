@@ -14,18 +14,18 @@
     "lib"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.14.1",
-    "@typescript-eslint/parser": "^7.14.1",
+    "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "@typescript-eslint/parser": "^8.19.1",
     "eslint-plugin-eggache": "^2.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsdoc": "^46.9.1",
     "eslint-plugin-node": "^11.1.0"
   },
   "devDependencies": {
-    "coffee": "^5.4.0",
-    "egg-bin": "6",
-    "eslint": "^8.3.0",
-    "typescript": "^5.2.2"
+    "coffee": "5",
+    "@eggjs/bin": "7",
+    "eslint": "8",
+    "typescript": "5"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,6 @@
   "scripts": {
     "lint": "eslint test/*.test.js lib *.js --fix",
     "test": "egg-bin test --ts false",
-    "ci": "npm run lint && egg-bin cov",
-    "contributor": "git-contributor"
+    "ci": "npm run lint && egg-bin cov"
   }
 }

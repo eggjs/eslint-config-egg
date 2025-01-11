@@ -39,17 +39,17 @@ describe('test/ts.test.js', () => {
     });
   });
 
-  describe('semicolon', () => {
+  describe.only('semicolon', () => {
     it('should success with semicolon', () => {
       return coffee.spawn('eslint', [ './semi/semi.ts' ], { cwd })
-        // .debug()
+        .debug()
         .expect('code', 0)
         .end();
     });
 
     it('should fail without semicolon', () => {
       return coffee.spawn('eslint', [ './semi/semi-error.ts' ], { cwd })
-        // .debug()
+        .debug()
         .expect('stdout', /Missing semicolon/)
         .expect('code', 1)
         .end();

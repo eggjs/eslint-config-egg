@@ -8,11 +8,11 @@ describe('test/enforce-node-prefix.test.js', () => {
   describe('normal', () => {
     it('should works without error', async () => {
       await coffee.spawn('eslint', [ 'correct.ts' ], { cwd })
-        // .debug()
+        .debug()
         .expect('code', 0)
         .end();
       await coffee.spawn('eslint', [ 'correct.js' ], { cwd: cwdJS })
-        // .debug()
+        .debug()
         .expect('code', 0)
         .end();
     });

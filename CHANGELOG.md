@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.1.0](https://github.com/eggjs/eslint-config-egg/compare/v14.0.0...v14.1.0) (2025-01-21)
+
+
+### Features
+
+* allow empty constructors ([#75](https://github.com/eggjs/eslint-config-egg/issues/75)) ([7d9dd10](https://github.com/eggjs/eslint-config-egg/commit/7d9dd10614552523f6ad50c2e716e699836f952b))
+
 ## [14.0.0](https://github.com/eggjs/eslint-config-egg/compare/v13.1.0...v14.0.0) (2024-06-29)
 
 
